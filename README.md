@@ -25,7 +25,7 @@ tipo e as linguagens orientadas a objetos.</strong><br>
         em comparação com a POO.
     * Desta forma, linguagens estruturadas dão mais importância ao processo.
 * Associação entre a abstração de dados e as linguagens orientadas a objetos
-    * A abstração de dados Impõe uma separação clara entre propriedades
+    * A abstração de dados impõe uma separação clara entre propriedades
         abstratas de um tipo de dados e os detalhes concretos de sua implementação.
         As propriedades abstratas são aquelas visíveis ao código do cliente que
         faz uso do tipo de dados (interface para o tipo de dados) enquanto que
