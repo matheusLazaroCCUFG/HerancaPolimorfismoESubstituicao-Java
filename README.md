@@ -23,7 +23,7 @@ tipo e as linguagens orientadas a objetos.</strong><br>
         código são processadas uma a uma, ou seja, sequencialmente. Utiliza-se
         a abordagem “de cima para baixo”. Fornece menos flexibilidade e abstração
         em comparação com a POO.
-    * Desta forma, linguagens estruturadas dão mais importância ao ao processo.
+    * Desta forma, linguagens estruturadas dão mais importância ao processo.
 * Associação entre a abstração de dados e as linguagens orientadas a objetos
     * A abstração de dados Impõe uma separação clara entre propriedades
         abstratas de um tipo de dados e os detalhes concretos de sua implementação.
