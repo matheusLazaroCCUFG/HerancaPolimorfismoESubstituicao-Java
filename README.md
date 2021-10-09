@@ -43,7 +43,7 @@ tipo e as linguagens orientadas a objetos.</strong><br>
         Fornece mais flexibilidade e abstração em comparação com a programação
         estruturada. É menos difícil modificar programas orientados a objetos e
         reutilizar código em comparação com programas estruturados.
-    * Desta forma, linguagens orientadas a objetos são mais importância aos dados.
+    * Desta forma, linguagens orientadas a objetos dão mais importância aos dados.
     
 <strong>2. Explique o princípio da substituição.</strong><br>
 #### Resposta:
