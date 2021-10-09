@@ -4,34 +4,34 @@
 abstração. Há dois tipos de abstração: de processo e de dados. Discorra sobre
 a associação entre o primeiro tipo e as linguagens estruturadas e o segundo
 tipo e as linguagens orientadas a objetos.</strong><br>
-Resposta:
-    * Associação entre a abstração de processo e as linguagens estruturadas
-        - O conceito de abstração de processo está entre os mais antigos no
+#### Resposta:
+* Associação entre a abstração de processo e as linguagens estruturadas
+    *  O conceito de abstração de processo está entre os mais antigos no
         projeto de linguagens de programação. Todos os subprogramas são abstrações
         de processo, porque fornecem uma maneira pela qual um programa
         especifica um processo, sem fornecer os detalhes de como ele realiza
         sua tarefa, ao menos no programa chamador.
-        - Neste contexto, a programação estruturada consiste em módulos bem
+    * Neste contexto, a programação estruturada consiste em módulos bem
         estruturados e separados. O usuário pode criar suas próprias funções
         definidas pelo usuário. É um subconjunto da programação procedural.
         Os programas são divididos em pequenos programas ou funções. Trata-se
         de facilitar a criação de programas com código legível e componentes
         reutilizáveis.
-        - As linguagens estruturadas dão suporte à organização, gerenciamento e
+    * As linguagens estruturadas dão suporte à organização, gerenciamento e
         codificação de programas que podem fornecer modificações e entendimento
         mais fáceis. Os subprogramas são escritos globalmente e as linhas de
         código são processadas uma a uma, ou seja, sequencialmente. Utiliza-se
         a abordagem “de cima para baixo”. Fornece menos flexibilidade e abstração
         em comparação com a POO.
         - Desta forma, linguagens estruturadas dão mais importância ao ao processo.
-    * Associação entre a abstração de dados e as linguagens orientadas a objetos
-        - A abstração de dados Impõe uma separação clara entre propriedades
+* Associação entre a abstração de dados e as linguagens orientadas a objetos
+    * A abstração de dados Impõe uma separação clara entre propriedades
         abstratas de um tipo de dados e os detalhes concretos de sua implementação.
         As propriedades abstratas são aquelas visíveis ao código do cliente que
         faz uso do tipo de dados (interface para o tipo de dados) enquanto que
         a implementação concreta é mantida inteiramente privada e, de fato,
         pode mudar.
-        - As linguagens orientadas a objetos baseiam-se no conceito de objetos
+    * As linguagens orientadas a objetos baseiam-se no conceito de objetos
         que contêm dados e processo. Os programas são divididos em objetos ou
         entidades. A criação de objetos geralmente contêm funções e dados.
         O principal objetivo é melhorar e aumentar a qualidade e a produtividade
@@ -43,13 +43,11 @@ Resposta:
         Fornece mais flexibilidade e abstração em comparação com a programação
         estruturada. É menos difícil modificar programas orientados a objetos e
         reutilizar código em comparação com programas estruturados.
-        - Desta forma, linguagens orientadas a objetos são mais importância aos dados.
-
-
-
+    * Desta forma, linguagens orientadas a objetos são mais importância aos dados.
+    
 <strong>2. Explique o princípio da substituição.</strong><br>
-Resposta:
-        Uma linguagem suporta o princípio da substituição, se ela permite programas
+#### Resposta:
+* Uma linguagem suporta o princípio da substituição, se ela permite programas
     nos quais uma variável de uma classe pode ser substituída por uma variável
     de uma de suas classes ancestrais em qualquer situação, sem causar erros de
     tipo e sem alterar o comportamento do programa.
