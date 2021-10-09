@@ -33,7 +33,7 @@ tipo e as linguagens orientadas a objetos.</strong><br>
         pode mudar.
     * As linguagens orientadas a objetos baseiam-se no conceito de objetos
         que contêm dados e processo. Os programas são divididos em objetos ou
-        entidades. A criação de objetos geralmente contêm funções e dados.
+        entidades. A criação de objetos geralmente contêm métodos e dados.
         O principal objetivo é melhorar e aumentar a qualidade e a produtividade
         da análise e do projeto do sistema. Concentra-se em representar a
         estrutura e o comportamento do sistema de informação em módulos minúsculos
