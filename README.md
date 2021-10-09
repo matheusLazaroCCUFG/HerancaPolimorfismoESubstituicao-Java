@@ -53,27 +53,27 @@ tipo e as linguagens orientadas a objetos.</strong><br>
     tipo e sem alterar o comportamento do programa.
 
 <strong>3. Analise as seguintes afirmativas</strong><br>
-   [ ~F  ] a. Encapsulamento é a capacidade de uma operação atuar de modos
+* [ ~F  ] a. Encapsulamento é a capacidade de uma operação atuar de modos
 diversos em classes diferentes.
-        * a capacidade de uma operação atuar de modos diversos em classes
+    * A capacidade de uma operação atuar de modos diversos em classes
         diferentes denomina-se Polimorfismo
 
-   [  ~F ] b. Polimorfismo é o compartilhamento de atributos e métodos entre
-classes com base em um relacionamento hierárquico.
-        * compartilhamento de atributos e métodos entre classes com base em
+* [  ~F ] b. Polimorfismo é o compartilhamento de atributos e métodos entre
+classes com base em um relacionamento hierárquico. 
+    * compartilhamento de atributos e métodos entre classes com base em
         um relacionamento hierárquico denomina-se Herança.
 
-   [  F ] c. Herança consiste no processo de ocultação dos detalhes internos de
+* [  F ] c. Herança consiste no processo de ocultação dos detalhes internos de
 implementação de um objeto.
-        * processo de ocultação dos detalhes internos de implementação de um
+    * processo de ocultação dos detalhes internos de implementação de um
         objeto denomina-se Encapsulamento.
 
-   [ V ] d. Sobreposição é a redefinição das funções de um método herdado.
+* [ V ] d. Sobreposição é a redefinição das funções de um método herdado.
 Os métodos apresentam assinaturas iguais.
 
-   [ F ] e. Em Java, todos os métodos numa classe abstrata devem ser declarados
+* [ F ] e. Em Java, todos os métodos numa classe abstrata devem ser declarados
 como abstratos.
-        * Uma classe abstrata pode ou não ter métodos abstratos. Entretanto, se
+    * Uma classe abstrata pode ou não ter métodos abstratos. Entretanto, se
         uma classe contém métodos abstratos, então obrigatoriamente a classe
         deve ser declarada abstrata.
 
