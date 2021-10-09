@@ -75,11 +75,13 @@ public class Lista {
         Iterator<Forma> i = forma.iterator();
         Forma f;
         String str = "Volumes dos Cilindros";
+        int numCilindros = 0;
 
         while(i.hasNext()){
             f = (Forma) i.next();
             if(f instanceof Cilindro){
-                str += "\n" + String.format("%.2f", ((Cilindro) f).calculaVolume()) + " cm³";
+                str += "\nCilindro " + (numCilindros+1) + " = " + String.format("%.2f", ((Cilindro) f).calculaVolume()) + " cm³";
+                numCilindros++;
             }
         }
         return str;
