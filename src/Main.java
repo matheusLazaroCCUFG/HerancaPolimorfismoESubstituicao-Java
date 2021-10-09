@@ -1,4 +1,3 @@
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -25,7 +24,11 @@ public class Main {
                 forma = new Circulo();
                 forma.raio = raio;
                 System.out.println(forma.toString());
-                System.out.println(lista.add(forma));
+                if (lista.add(forma)) {
+                    System.out.println("Forma adicionada à lista com sucesso!");
+                }else{
+                    System.out.println("Erro ao criar adicionar a Forma");
+                }
             }else
             if(opt == 2){
                 System.out.print("Raio do Cilindro em cm = ");
@@ -37,7 +40,11 @@ public class Main {
                 forma.raio = raio;
                 forma.altura = altura;
                 System.out.println(forma.toString());
-                System.out.println(lista.add(forma));
+                if (lista.add(forma)) {
+                    System.out.println("Forma adicionada à lista com sucesso!");
+                }else{
+                    System.out.println("Erro ao criar adicionar a Forma");
+                }
             }else
             if(opt == 0){
                 break;
