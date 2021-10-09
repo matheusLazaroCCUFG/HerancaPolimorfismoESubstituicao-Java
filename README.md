@@ -1,9 +1,9 @@
 # Tarefa 4 - parcial
 
-1. Característica importante de linguagens de programação é o suporte à
+<strong>1. Característica importante de linguagens de programação é o suporte à
 abstração. Há dois tipos de abstração: de processo e de dados. Discorra sobre
 a associação entre o primeiro tipo e as linguagens estruturadas e o segundo
-tipo e as linguagens orientadas a objetos.
+tipo e as linguagens orientadas a objetos.</strong>
 Resposta:
     * Associação entre a abstração de processo e as linguagens estruturadas
         - O conceito de abstração de processo está entre os mais antigos no
@@ -47,14 +47,14 @@ Resposta:
 
 
 
-2. Explique o princípio da substituição.
+<strong>2. Explique o princípio da substituição.</strong>
 Resposta:
         Uma linguagem suporta o princípio da substituição, se ela permite programas
     nos quais uma variável de uma classe pode ser substituída por uma variável
     de uma de suas classes ancestrais em qualquer situação, sem causar erros de
     tipo e sem alterar o comportamento do programa.
 
-3. Analise as seguintes afirmativas
+<strong>3. Analise as seguintes afirmativas</strong>
    [ ~F  ] a. Encapsulamento é a capacidade de uma operação atuar de modos
 diversos em classes diferentes.
         * a capacidade de uma operação atuar de modos diversos em classes
@@ -82,11 +82,11 @@ como abstratos.
    Para cada uma delas marque V ou F. Explique aquelas que você marcou F.
 
 
-4. Codifique, em sua linguagem escolhida, as classes Forma, Círculo, Cilindro e
+<strong>4. Codifique, em sua linguagem escolhida, as classes Forma, Círculo, Cilindro e
 Lista apresentadas nos slides disponíveis em
 https://turing.inf.ufg.br/pluginfile.php/101007/mod_resource/content/0/15-lpp-heranca-e-polimorfismo.pdf.
 Implemente e execute uma unidade de programa que use as classes codificadas e
 mostre o princípio da substituição funcionando (slide 6). Caso a linguagem
 escolhida ofereça suporte ao polimorfismo ou ao princípio da substituição,
 implemente em outra linguagem que ofereça este suporte.
-==>> Além de postar suas respostas, leve-as para discutirmos na nossa próxima aula síncrona.
+==>> Além de postar suas respostas, leve-as para discutirmos na nossa próxima aula síncrona.<s/trong>
