@@ -53,17 +53,17 @@ tipo e as linguagens orientadas a objetos.</strong><br>
     tipo e sem alterar o comportamento do programa.
 
 <strong>3. Analise as seguintes afirmativas</strong><br>
-* [ ~F  ] a. Encapsulamento é a capacidade de uma operação atuar de modos
+* [ F ] a. Encapsulamento é a capacidade de uma operação atuar de modos
 diversos em classes diferentes.
     * A capacidade de uma operação atuar de modos diversos em classes
         diferentes denomina-se Polimorfismo
 
-* [  ~F ] b. Polimorfismo é o compartilhamento de atributos e métodos entre
+* [ F ] b. Polimorfismo é o compartilhamento de atributos e métodos entre
 classes com base em um relacionamento hierárquico. 
     * compartilhamento de atributos e métodos entre classes com base em
         um relacionamento hierárquico denomina-se Herança.
 
-* [  F ] c. Herança consiste no processo de ocultação dos detalhes internos de
+* [ F ] c. Herança consiste no processo de ocultação dos detalhes internos de
 implementação de um objeto.
     * processo de ocultação dos detalhes internos de implementação de um
         objeto denomina-se Encapsulamento.
