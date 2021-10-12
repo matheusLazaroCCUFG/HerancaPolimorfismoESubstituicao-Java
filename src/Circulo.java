@@ -1,11 +1,10 @@
 public class Circulo extends Forma {
     /**
      * Área do Círculo = pi * raio²
-     * @return
      */
     @Override
     public double calculaArea() {
-        return Math.PI * Math.pow(raio, 2);
+        return Math.PI * Math.pow(getRaio(), 2);
     }
 
     @Override

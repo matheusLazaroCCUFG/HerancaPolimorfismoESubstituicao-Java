@@ -21,7 +21,7 @@ public class Main {
                 System.out.print("Raio do Círculo em cm = ");
                 raio = Double.parseDouble(scan.next());
                 forma = new Circulo();
-                forma.raio = raio;
+                forma.setRaio(raio);
                 System.out.println(forma.toString());
                 if (lista.add(forma)) {
                     System.out.println("Forma adicionada à lista com sucesso!");
@@ -36,8 +36,8 @@ public class Main {
                 altura = Double.parseDouble(scan.next());
 
                 forma = new Cilindro();
-                forma.raio = raio;
-                forma.altura = altura;
+                forma.setRaio(raio);
+                forma.setAltura(altura);
                 System.out.println(forma.toString());
                 if (lista.add(forma)) {
                     System.out.println("Forma adicionada à lista com sucesso!");

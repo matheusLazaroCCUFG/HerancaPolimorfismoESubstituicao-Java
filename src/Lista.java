@@ -7,12 +7,11 @@ public class Lista {
     Lista(){
         forma = new LinkedList<>();
     }
+
     /**
      * Verifica se o objeto passado como parâmetro existe,
      * caso positivo, ele é adicionado à lista encadeada "forma", que é do
      * tipo Forma; então retorna-se true; caso contrário, retorna-se false.
-     * @param forma
-     * @return
      */
     public boolean add(Forma forma){
         if(forma != null){
@@ -50,7 +49,7 @@ public class Lista {
     }
 
     public String mostraAreas(){
-        String areas = "Áreas das formas";
+        StringBuilder areas = new StringBuilder("Áreas das formas");
         int numCirculos = 0;
         int numCilindros = 0;
 
@@ -60,30 +59,42 @@ public class Lista {
         while(i.hasNext()){
             f = (Forma) i.next();
             if(f instanceof Circulo){
-                areas += "\nÁrea do Círculo "+ (numCirculos+1) + " = " +  String.format("%.2f", f.calculaArea()) + " cm²";
+                areas.
+                    append("\nÁrea do Círculo ").append(numCirculos + 1).
+                    append(" = ").append(String.format("%.2f", f.calculaArea())).
+                    append(" cm²");
                 numCirculos++;
             }
             if(f instanceof Cilindro){
-                areas += "\nÁrea do Cilindro "+ (numCilindros+1) + " = " +  String.format("%.2f", f.calculaArea()) + " cm²";
+                areas.
+                    append("\nÁrea do Cilindro ").
+                    append(numCilindros + 1).append(" = ").
+                    append(String.format("%.2f", f.calculaArea())).
+                    append(" cm²");
                 numCilindros++;
             }
         }
-        return areas;
+        return areas.toString();
     }
 
     public String mostraVolumes(){
         Iterator<Forma> i = forma.iterator();
         Forma f;
-        String str = "Volumes dos Cilindros";
+        StringBuilder str = new StringBuilder("Volumes dos Cilindros");
         int numCilindros = 0;
 
         while(i.hasNext()){
             f = (Forma) i.next();
             if(f instanceof Cilindro){
-                str += "\nCilindro " + (numCilindros+1) + " = " + String.format("%.2f", ((Cilindro) f).calculaVolume()) + " cm³";
+                str.
+                    append("\nCilindro ").
+                    append(numCilindros + 1).
+                    append(" = ").
+                    append(String.format("%.2f", ((Cilindro) f).calculaVolume())).
+                    append(" cm³");
                 numCilindros++;
             }
         }
-        return str;
+        return str.toString();
     }
 }
