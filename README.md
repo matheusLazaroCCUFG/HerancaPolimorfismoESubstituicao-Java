@@ -1,4 +1,8 @@
 # Tarefa 4 - parcial
+* Alunos: 
+    * Matheus Lázaro Honório da Silva - 201801523
+    * Thiago Borges Lopes - 201616159
+
 
 <strong>1. Característica importante de linguagens de programação é o suporte à
 abstração. Há dois tipos de abstração: de processo e de dados. Discorra sobre
